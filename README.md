@@ -7,7 +7,7 @@ This is a <b>CRUD REST API</b> built using <b><i>Django REST framework (DRF), VU
 With the help of this API, one can explore all the possible data types including :-
 
 ⭐ Text 
-⭐ Timestamp 
+⭐ Timestamp   
 ⭐ Integer
 ⭐ Email  
 ⭐ boolean  
