@@ -74,10 +74,9 @@ export default {
 
 <style lang="scss">
 body {
-    background: linear-gradient(to right,cyan,blue,purple);
-    padding-top: 70px;
-    background: linear-gradient(to right,cyan,blue,purple);
 
+    padding-top: 70px;
+    background: linear-gradient(to right,cyan,blue,black);
 
 }
 
