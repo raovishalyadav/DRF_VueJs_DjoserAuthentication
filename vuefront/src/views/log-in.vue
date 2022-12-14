@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="login text-center"> -->
+
 
         <div class="login shadow-lg rounded-3 col-3 p-5 text-center bg-light text-dark centerlogin">
             <form @submit.prevent="submitForm">
@@ -32,16 +32,6 @@
 
             </form>
         </div>
-
-
-
-        <!-- 
-    <form @submit.prevent="submitForm">
-        <input type="email" name="username" v-model="username">
-        <input type="password" name="password" v-model="password">
-        <button type="submit" class="btn btn-primary">Log me IN!</button>
-    </form> -->
-    <!-- </div> -->
 
 
 </template>
