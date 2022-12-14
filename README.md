@@ -2,7 +2,7 @@
 
 
 This is a <b>REST API</b> built using <b><i>Django REST framework (DRF), VUE Js, HTML, CSS, Bootstrap & FontAwesome</i></b>. 
-
+This API has token based Authentication using <b>Djoser</b>. 
 
 With the help of this API, one can explore all the possible CRUD operations on :-
 
