@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-5 pt-5 text-center">
+  <div class="container-fluid mt-3 pt-3 text-center">
 
     <div v-if="$store.state.isAuthenticated" class="logout text-center">
       <form @submit.prevent="logoutForm">
