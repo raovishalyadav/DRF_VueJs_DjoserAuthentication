@@ -11,8 +11,8 @@ With the help of this API, one can explore all the possible CRUD operations on :
 ⭐ Integer  
 ⭐ Email  
 ⭐ boolean  
-⭐ Image upload  
-⭐ File upload   
+⭐ Image   
+⭐ File    
 ⭐ Comments  
 ⭐ Dropdown    
 ⭐ URL   
