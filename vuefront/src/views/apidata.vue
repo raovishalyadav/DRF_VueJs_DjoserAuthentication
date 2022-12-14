@@ -82,10 +82,7 @@
   
 <script>
 import axios from 'axios';
-//   import $ from 'jquery';
-//   $(document).ready(function(){
-//   $('.table-responsive').doubleScroll();
-// });
+
 export default {
   name: 'apidata',
   props: {},
@@ -108,11 +105,9 @@ export default {
 
     handleImageUpload() {
       this.image = this.$refs.image.files[0];
-      // console.log(this.sixth.name);
     },
     handleFileUpload() {
       this.file = this.$refs.file.files[0];
-      console.log(this.file.name);
     },
 
     getCRUD() {
@@ -147,7 +142,6 @@ export default {
         }
         formData.append('eight', this.eight);
         formData.append('nine', this.nine);
-        console.log(...formData)
         // You should have a server side REST API 
         axios.post(this.base_url,
           formData, {
@@ -183,7 +177,6 @@ export default {
         }
         formData.append('eight', this.eight);
         formData.append('nine', this.nine);
-        console.log(...formData)
         axios.patch(this.url,
           formData, {
           headers: {
