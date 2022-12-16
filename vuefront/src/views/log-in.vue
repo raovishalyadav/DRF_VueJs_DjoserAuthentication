@@ -59,9 +59,7 @@ export default {
             axios
                 .post('/security/token/login/', formData)
                 .then(response => {
-                    console.log(response)
                     const token = response.data.auth_token
-                    console.log(token, 'no token found:(((')
                     this.$store.commit('setToken', token)
                     axios.defaults.headers.common['Authorization'] = 'Token ' + token
                     localStorage.setItem('token', token)
