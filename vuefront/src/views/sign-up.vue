@@ -52,7 +52,6 @@ export default {
                 .then(response => {
 
                     this.$router.push('/log-in')
-                    console.log(response)
                 })
                 .catch(error => {
                     console.log(error)
