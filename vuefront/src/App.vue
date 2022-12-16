@@ -26,7 +26,6 @@ export default {
     this.$store.commit('initializeStore')
 
     const token = this.$store.state.token
-    console.log(token, 'no token found:(')
 
     if (token) {
       axios.defaults.headers.common['Authorization'] = 'Token ' + token
@@ -39,7 +38,6 @@ export default {
     logoutForm(e) {
       axios.post('/security/token/logout/')
         .then(response => {
-          console.log(response)
 
           this.$store.commit('removeToken')
           axios.defaults.headers.common['Authorization'] = ''
